@@ -1,14 +1,14 @@
-.carusel__Items{
+.carousel__Items{
         display: flex;
         justify-content: center;
 }
 
-.carusel__Item{
+.carousel__Item{
         width: 300px;
         padding: 10px;
 }
 
-.carusel__Items img{
+.carousel__Items img{
         height: 150px;
         width: 150px;
         border-radius: 50%;
