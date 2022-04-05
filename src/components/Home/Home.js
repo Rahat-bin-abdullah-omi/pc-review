@@ -6,7 +6,7 @@ import laptopimg from '../image/laptop.jpg';
 import './Home.css';
 
 const Home = () => {
-  const [review, setReview] = useReview();
+  const [review] = useReview();
   const items = review.slice(0, 3);
   return (
     <div>

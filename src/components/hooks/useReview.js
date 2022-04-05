@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const useReview = () => {
   const [review, setReview] = useState([]);
@@ -8,8 +8,8 @@ const useReview = () => {
       .then(resp => resp.json())
       .then(data => setReview(data))
   }, [])
-  
- return [review, setReview]
+
+  return [review, setReview]
 }
 
 export default useReview;

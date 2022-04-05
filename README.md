@@ -1,6 +1,6 @@
-# ReviewLaptop
+# Review Laptop
 
-This is our live project [Best laptop for you](https://laptopreviewss.netlify.app/review).
+This is our live project [Best laptop for you](pc-review.netlify.app).
 
 ## Available Scripts
 
