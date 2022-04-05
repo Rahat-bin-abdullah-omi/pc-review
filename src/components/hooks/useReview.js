@@ -8,8 +8,8 @@ const useReview = () => {
       .then(resp => resp.json())
       .then(data => setReview(data))
   }, [])
-
-  return [review, setReview]
+  
+ return [review, setReview]
 }
 
 export default useReview;

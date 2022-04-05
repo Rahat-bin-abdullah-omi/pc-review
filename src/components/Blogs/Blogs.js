@@ -1,14 +1,14 @@
 import React from 'react';
 import './Blogs.css';
 
-const Blogs = () => {
+const Blogs=()=> {
   return (
     <div className='blogs'>
       <h2>
         1. What is contaxt api?
       </h2>
       <h3>
-        The Context API is a React structure that enables you to exchange unique details and assists in solving prop-drilling from all levels of your application. It is using for changing state.
+        The Context API is a React structure that enables you to exchange unique details and assists in solving prop-drilling from all levels of your application. It is using for changing state. 
         Redux is the best example of an context api.
       </h3>
 
